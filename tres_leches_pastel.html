@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de recetas">
+    <meta name="keywords" content="postres, recetas, pastelería, galletas, bizcochos, muffins, pasteles">
+    <meta name="author" content="Andrea Masini">
+    <title>Pastel de Tres Leches</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="images/logo2.png">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+  <div class="header-container">
+    <div class="text-container">
+      <h1 class="titulo">DOUCE & DÉLICES</h1>
+      <p class="frase">INSPÍRATE Y ENDULZA TUS DÍAS</p>
+    </div>
+    <div class="social-icons">
+      <div class="social-icons">
+        <a href="#" id="dark-mode-toggle"><i class="fas fa-moon"></i></a>
+        <a href="https://facebook.com" target="_blank" onclick="showAlert(event)"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com" target="_blank" onclick="showAlert(event)"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com" target="_blank" onclick="showAlert(event)"><i class="fab fa-twitter"></i></a>
+        <a href="https://pinterest.com" target="_blank" onclick="showAlert(event)"><i class="fab fa-pinterest"></i></a>
+        <a href="https://youtube.com" target="_blank" onclick="showAlert(event)"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav me-auto">
+                <a class="nav-link active" aria-current="" href="index.html">HOME</a>
+                <a class="nav-link" href="index.html#recetas">RECETAS</a>
+            </div>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html#sobre-nosotros">Sobre Nosotros</a>
+                <a class="nav-link" href="index.html#noticias">Noticias</a>
+                <a class="nav-link" href="index.html#contactanos_visitanos">Contáctanos</a>
+                <a class="nav-link" href="index.html#contactanos_visitanos">Visítanos</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container my-5">
+    <div class="row align-items-center mb-4">
+        <div class="col-md-6 text-center">
+            <img src="images/tres_leches.jpg" alt="Tres Leches" class="chococookie-image">
+        </div>
+        <div class="col-md-6 recipe-info">
+            <h2 class="chocochips-titulo">Pastel de Tres Leches</h2>
+            <p class="chocochips-desc">
+                Este delicioso pastel Tres Leches es un clásico postre latinoamericano que combina una textura increíblemente húmeda y suave con una deliciosa cobertura de crema batida. La base del pastel se prepara con una mezcla esponjosa de huevos, azúcar y harina que se hornea hasta alcanzar una textura ligera. Después de enfriarse, el pastel se empapa con una mezcla rica de tres tipos de leche: leche evaporada, leche condensada azucarada y leche entera, lo que le da su característica consistencia jugosa y sabrosa.
+            </p>
+            <p class="chocochips-desc">
+                La cobertura se elabora con una crema batida ligera y dulce, realzada con un toque de vainilla y decorada con un poco de canela molida. Este pastel es ideal para celebraciones y ocasiones especiales, ya que se puede preparar con anticipación y mejora aún más al refrigerarse durante la noche. Sirve este postre con fresas frescas para añadir un toque de frescura y color, y disfruta de un pastel que es la combinación perfecta de cremosidad y dulzura.
+            </p>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-3">
+                    <div class="card chococookies-card text-center p-2">
+                        <span class="material-symbols-outlined">schedule</span>
+                        <h6 class="detalles">Preparación</h6>
+                        <p class="min">25 min</p>
+                    </div>
+                </div>
+            
+                <div class="col-3">
+                    <div class="card chococookies-card text-center p-2">
+                        <span class="material-symbols-outlined">timer</span>
+                        <h6 class="detalles">Horneado</h6>
+                        <p class="min">35 min</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card chococookies-card text-center p-2">
+                        <span class="material-symbols-outlined">restaurant</span>
+                        <h6 class="detalles">Cantidad</h6>
+                        <p class="min">Familiar</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 mb-3">
+        <div class="card chococookies-ingredientes"> 
+            <div class="card-body">
+                <h5 class="card-title">Ingredientes</h5>
+                <ul>
+                    <li>1 taza de harina de trigo</li>
+                    <li>1 1/2 cditas. de polvo para hornear</li>
+                    <li>1/4 de cdita. de sal</li>
+                    <li>5 huevos grandes, separados</li>
+                    <li>1 taza de azúcar granulada, dividida</li>
+                    <li>1/3 de taza de leche entera</li>
+                    <li>1 cdita. de extracto de vainilla</li>             
+                </ul>
+                <p><strong>Para la mezcla de tres leches:</strong></p>
+                <ul>
+                    <li>1 lata (354 ml) de leche evaporada</li>
+                    <li>1 lata (396 ml) de leche condensada azucarada</li>
+                    <li>1/4 de taza de leche entera</li>
+                </ul>
+                <p><strong>Para la crema batida:</strong></p>
+                <ul>
+                    <li>1 pinta de crema para batir</li>
+                    <li>3 cucharadas de azúcar glas</li>
+                    <li>1/2 cdita. de extracto de vainilla</li>
+                    <li>Canela molida, para espolvorear</li>
+                </ul>
+
+                
+                <h6 class="check">Chequea nuestro video tutorial</h6>
+                <iframe width="500" height="268" src="https://www.youtube.com/embed/ty_Wq8nQ634?si=tMmMbFIuK7OCFFAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-3">
+        <div class="card chococookies-procedimiento"> 
+            <div class="card-body">
+                <h5 class="card-title">Pasos para la Receta</h5>
+                <ol>
+                    <li><strong>Mezclar ingredientes secos:</strong> En un tazón mediano, combina la harina, el polvo para hornear y la sal. Separa los huevos en dos tazones diferentes.</li>
+                    <li><strong>Preparar las yemas:</strong> Añade 3/4 de taza de azúcar al tazón con las yemas de huevo y bate a alta velocidad hasta que las yemas se vuelvan de un amarillo pálido. Agrega la leche y el extracto de vainilla, y mezcla hasta combinar.</li>
+                    <li><strong>Combinar las mezclas:</strong> Vierte la mezcla de yemas sobre los ingredientes secos y revuelve suavemente hasta que estén combinados (evita mezclar en exceso).</li>
+                    <li><strong>Batir las claras:</strong> Usa una batidora eléctrica para batir las claras de huevo a alta velocidad. Cuando empiecen a formar picos firmes, añade gradualmente el 1/4 de taza de azúcar restante. Incorpora las claras batidas a la masa con movimientos envolventes, asegurándote de raspar el fondo y los lados del tazón.</li>
+                    <li><strong>Hornear el pastel:</strong> Vierte la masa en un molde sin engrasar y alisa la superficie. Hornea de 25 a 35 minutos o hasta que un palillo insertado en el centro salga limpio. Retira del horno y deja que el pastel se enfríe por completo.</li>
+                    <li><strong>Preparar la mezcla de leches:</strong> Combina la leche evaporada, la leche condensada y la leche entera en un tazón pequeño. Una vez que el pastel se haya enfriado, usa un tenedor para hacer agujeros por toda la superficie.</li>
+                    <li><strong>Remojar el pastel:</strong> Vierte lentamente la mezcla de leches sobre el pastel, asegurándote de cubrir los bordes y toda la superficie. Refrigera al menos 1 hora o toda la noche.</li>
+                    <li><strong>Hacer la cobertura de crema batida y servir:</strong> Bate la crema para batir, el azúcar glas y el extracto de vainilla hasta que se formen picos firmes. Esparce la crema batida sobre el pastel enfriado. Espolvorea canela molida por encima y sirve con fresas frescas.</li>
+
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const toggleButton = document.getElementById('dark-mode-toggle');
+  const body = document.body;
+  
+  if (localStorage.getItem('dark-mode') === 'enabled') {
+      body.classList.add('dark-mode');
+  }
+  
+  toggleButton.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+      
+      if (body.classList.contains('dark-mode')) {
+          localStorage.setItem('dark-mode', 'enabled');
+      } else {
+          localStorage.setItem('dark-mode', 'disabled');
+      }
+  });
+  </script>
+</body>
+</html>

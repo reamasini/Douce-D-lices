@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de recetas">
+    <meta name="keywords" content="postres, recetas, pastelería, galletas, bizcochos, muffins, pasteles">
+    <meta name="author" content="Andrea Masini">
+    <title>Galletas Red Velvet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="images/logo2.png">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+
+  <div class="header-container">
+    <div class="text-container">
+      <h1 class="titulo">DOUCE & DÉLICES</h1>
+      <p class="frase">INSPÍRATE Y ENDULZA TUS DÍAS</p>
+    </div>
+    <div class="social-icons">
+      <div class="social-icons">
+        <a href="#" id="dark-mode-toggle"><i class="fas fa-moon"></i></a>
+        <a href="https://facebook.com" target="_blank" onclick="showAlert(event)"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com" target="_blank" onclick="showAlert(event)"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com" target="_blank" onclick="showAlert(event)"><i class="fab fa-twitter"></i></a>
+        <a href="https://pinterest.com" target="_blank" onclick="showAlert(event)"><i class="fab fa-pinterest"></i></a>
+        <a href="https://youtube.com" target="_blank" onclick="showAlert(event)"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav me-auto">
+                <a class="nav-link active" aria-current="" href="index.html">HOME</a>
+                <a class="nav-link" href="index.html#recetas">RECETAS</a>
+            </div>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="index.html#sobre-nosotros">Sobre Nosotros</a>
+                <a class="nav-link" href="index.html#noticias">Noticias</a>
+                <a class="nav-link" href="index.html#contactanos_visitanos">Contáctanos</a>
+                <a class="nav-link" href="index.html#contactanos_visitanos">Visítanos</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container my-5">
+    <div class="row align-items-center mb-4">
+        <div class="col-md-6 text-center">
+            <img src="images/redvelvet3.jpg" alt="Red Velvet" class="chococookie-image">
+        </div>
+        <div class="col-md-6 recipe-info">
+            <h2 class="chocochips-titulo">Galletas Red Velvet</h2>
+            <p class="chocochips-desc">
+                Las galletas Red Velvet son una deliciosa variación de un clásico que encanta a todos. Con su intenso color rojo y su textura suave, estas galletas son un verdadero festín para los sentidos. La combinación de cacao puro da lugar a un sabor rico y distintivo. Cada bocado está repleto de trozos de chocolate blanco, añadiendo una dulzura extra y una cremosidad que contrasta maravillosamente con el ligero amargor del cacao.
+            </p>
+            <p class="chocochips-desc">
+                Ideales para celebraciones, ocasiones especiales o simplemente para disfrutar en casa, estas galletas son perfectas para compartir con amigos y familiares. Su vibrante color las convierte en un atractivo visual en cualquier mesa, y su sabor único asegura que cada mordisco sea memorable. ¡Anímate a hornearlas y descubre por qué estas galletas son un verdadero favorito!
+            </p>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-3">
+                    <div class="card chococookies-card text-center p-2">
+                        <span class="material-symbols-outlined">schedule</span>
+                        <h6 class="detalles">Preparación</h6>
+                        <p class="min">15 min</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card chococookies-card text-center p-2">
+                        <span class="material-symbols-outlined">kitchen</span>
+                        <h6 class="detalles">Refrigeración</h6>
+                        <p class="min">10 min</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card chococookies-card text-center p-2">
+                        <span class="material-symbols-outlined">timer</span>
+                        <h6 class="detalles">Horneado</h6>
+                        <p class="min">15 min</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card chococookies-card text-center p-2">
+                        <span class="material-symbols-outlined">restaurant</span>
+                        <h6 class="detalles">Cantidad</h6>
+                        <p class="min">24 galletas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 mb-3">
+        <div class="card chococookies-ingredientes"> 
+            <div class="card-body">
+                <h5 class="card-title">Ingredientes</h5>
+                <ul>
+                    <li>1 taza de mantequilla sin sal </li>
+                    <li>1 taza de azúcar de caña </li>
+                    <li>3/4 de taza de azúcar blanco </li>
+                    <li>1 huevo M</li>
+                    <li>2 cditas. de vainilla en pasta</li>
+                    <li>1 cucharada de colorante rojo en gel </li>
+                    <li>2 cditas. de vinagre blanco </li>
+                    <li>4 1/4 tazas de harina de pastelería </li>
+                    <li>2 cucharadas de cacao puro </li>
+                    <li>1 cucharada de levadura en polvo </li>
+                    <li>1 cdita. de bicarbonato </li>
+                    <li>1 cdita. de sal </li>
+                    <li>3 tazas de chocolate blanco </li>                    
+                </ul>
+                <h6 class="check">Chequea nuestro video tutorial</h6>
+                <iframe width="500" height="278" src="https://www.youtube.com/embed/o9C1TR5I8YA?si=eEWd7KyrM8k8Xbf-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+        </div>
+    </div>
+    <div class="col-md-6 mb-3">
+        <div class="card chococookies-procedimiento"> 
+            <div class="card-body">
+                <h5 class="card-title">Pasos para la Receta</h5>
+                <ol>
+                    <li><strong>Batir la mantequilla y los azúcares:</strong> En un bol grande, mezcla la mantequilla a temperatura ambiente con el azúcar de caña y el azúcar blanco. Bate hasta que la mezcla esté cremosa y esponjosa.</li>
+                    <li><strong>Añadir los ingredientes líquidos:</strong> Incorpora el huevo y sigue batiendo. Agrega la vainilla, el vinagre y el colorante rojo, mezclando hasta que todo esté bien integrado.</li>
+                    <li><strong>Mezclar los ingredientes secos:</strong> En un bol aparte, tamiza la harina, el cacao, la levadura, la sal y el bicarbonato. Añade esta mezcla a los ingredientes húmedos y mezcla hasta integrar.</li>                 
+                    <li><strong>Agregar el chocolate blanco:</strong> Incorpora las gotas de chocolate blanco y mezcla suavemente para distribuirlas de manera uniforme.</li>                 
+                    <li><strong>Formar las galletas:</strong> Haz bolas de masa usando una cuchara para helado y colócalas en una bandeja con papel de horno, dejando espacio entre ellas.</li>               
+                    <li><strong>Enfríar la masa:</strong> Refrigera las bolas de masa por 1 hora o 30 minutos en el congelador. Esto ayuda a mantener su forma.</li>              
+                    <li><strong>Precalentar el horno:</strong> Mientras las galletas se enfrían, precalienta el horno a 170 °C (338 °F).</li>
+                    <li><strong>Hornear:</strong> Hornea durante 12-15 minutos, hasta que los bordes estén dorados. Las galletas estarán suaves al sacarlas, pero se endurecerán al enfriarse.</li>
+                    
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const toggleButton = document.getElementById('dark-mode-toggle');
+  const body = document.body;
+  
+  // Verificar si hay una preferencia guardada
+  if (localStorage.getItem('dark-mode') === 'enabled') {
+      body.classList.add('dark-mode');
+  }
+  
+  // Cambiar el modo al hacer clic en el botón
+  toggleButton.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+      
+      // Guardar la preferencia en localStorage
+      if (body.classList.contains('dark-mode')) {
+          localStorage.setItem('dark-mode', 'enabled');
+      } else {
+          localStorage.setItem('dark-mode', 'disabled');
+      }
+  });
+  </script>
+  
+</body>
+</html>
